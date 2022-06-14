@@ -1,0 +1,47 @@
+:root {
+    --gray: #36454F;
+    --pink: rgb(226, 43, 214);
+}
+
+header, h1 {
+    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(226, 43, 214);
+
+}
+
+body {
+    font-size: 100%;
+    background-color: var(--gray);
+}
+
+#header-paragraph {
+    text-align: center;
+}
+
+section {
+    margin: 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.linear-gradient-background {
+    background-image: linear-gradient(rgba(232, 102, 236, 0.6)
+    0%, rgba(232, 102, 236, 0.6) 100%);
+}
